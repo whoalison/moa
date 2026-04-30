@@ -17,9 +17,16 @@ Interface : Terminal via Syscall (padrão) ou MMIO (Teclado/Display).
 Persistência : Os dados devem ser salvos e carregados de um arquivo externo automaticamente.
 
 ESTRUTURA DE MEMÓRIA 
-_______________________________________________________________
-Entidades | Limites  | Atributos
-Cardápio  | 20 itens | Código, preço e descrição
-Mesas     | 15 mesas | Código, status, nome, telefone, pedidos
-Pedidos   | 20 tipos | código item, quantidade
+__________
+Cardápio : 
+20 itens
+Código, preço e descrição
+_________
+Mesas :
+15 mesas
+Código, status, nome, telefone, pedidos
+_________
+Pedidos :
+20 tipos
+código item, quantidade
 
